@@ -1,4 +1,3 @@
-// Methods
 /*
 - Signature of a method consists of the number, type and order of its parameters.
 - Overloading a method means having a method with the same name but with different signatures.
@@ -7,5 +6,14 @@
 
 public class Point
 {
+    public void Move(int x, int y)
+    {
+        ...
+    }
 
+    // The Move method overloaded here
+    public void Move(Point newLocation)
+    {
+        ...
+    }
 }
