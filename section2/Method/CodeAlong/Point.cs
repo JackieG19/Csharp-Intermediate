@@ -20,7 +20,13 @@ namespace Methods
 
     public void Move(Point newLocation)
     {
-        this.X = newLocation.X;
-        this.Y = newLocation.Y;
+        // this.X = newLocation.X;
+        // this.Y = newLocation.Y;
+        if (newLocation == null)
+            throw new ArgumentNullExection("newLoction")
+
+        Move(newLocation.X, newLoaction.Y);
     }
+
+
 }
