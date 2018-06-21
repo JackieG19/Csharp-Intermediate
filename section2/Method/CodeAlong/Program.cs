@@ -7,7 +7,16 @@ namespace Methods
 
         static void Main(string[] args)
         {
-            // var number = int.Parse("abc");
+            try
+            {
+                var num = int.Parse("abc");
+            }
+
+            catch (Expection)
+            {
+                Console.WriteLine("Conversion failed");
+            }
+
 
             int number;
             var result = int.TryParse("abc", out number);

@@ -27,6 +27,4 @@ namespace Methods
 
         Move(newLocation.X, newLoaction.Y);
     }
-
-
 }
