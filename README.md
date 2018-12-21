@@ -1,6 +1,4 @@
-## C# Mosh Intermediate
-
-**Learning Class, Interface, and OOP**
+## Learning Class, Interface, and OOP
 
 - Classes
 
@@ -11,5 +9,3 @@
 - Polymorphism: Third Pillar of OOP
 
 - Interfaces
-
-- Bonus
